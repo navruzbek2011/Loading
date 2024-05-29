@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.loading {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.percent {
+  color: red;
+  font-size: 100px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 400px;
+  height: 21px;
+  background-color: #111;
+  border-radius: 13px;
+}
+
+.progress {
+  width: 200px;
+  height: 20px;
+  background: red;
+  border-radius: 13px;
+  animation: navruz 13s;
+}
+
+@keyframes navruz {
+    0%{
+      background-color: red;
+    }
+    10%{
+      background-color: orange;
+    }
+    20%{
+      background-color: yellow;
+    }
+    30%{
+      background-color: green;
+    }
+    40%{
+      background-color: aqua;
+    }
+    50%{
+      background-color: blue;
+    }
+    60%{
+      background-color: purple;
+    }
+}

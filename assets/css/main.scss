@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.loading {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.percent {
+    background-image: linear-gradient(red, green, blue, purple, );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.progress-bar {
+    width: 406px;
+    height: 21px;
+    background-color: dodgerblue;
+    border-radius: 13px;
+}
+
+.progress {
+    width: 200px;
+    height: 21px;
+    background: red;
+    border-radius: 13px;
+}
